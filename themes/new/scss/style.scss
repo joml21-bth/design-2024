@@ -1,0 +1,202 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  width: 100%;
+}
+
+* {
+  color: $font-color;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin-top: 1rem;
+  margin-inline: 25%;
+  flex: 0 0 100%;
+  margin-bottom: 2rem;
+}
+
+.main p {
+  padding-right: 2rem;
+}
+
+body {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header,
+.footer {
+  flex: 1 0 100%;
+}
+
+.main table {
+  margin-left: 2rem;
+
+}
+
+a {
+  color: $accent-color;
+}
+
+a h1,
+p h1 {
+  margin: 0;
+}
+
+/* Header */
+
+.nav {
+  padding-top: $fullpad;
+}
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header {
+  margin-inline: 25%;
+  border-bottom: 1px solid $font-color;
+}
+
+/* Title */
+
+.title {
+  padding-top: $fullpad;
+  margin: 0;
+}
+
+.title a:link,
+.nav a:link { 
+  text-decoration: none;
+}
+
+.logo {
+  padding-top: $fullpad;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  margin-inline: 25%;
+  justify-content: space-between;
+  border-top: 1px solid $font-color;
+}
+
+.footer a {
+  color: $accent-color;
+  text-decoration: none;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
+.title * {
+  color: $accent-color;
+}
+
+.title p {
+  font-style: italic;
+}
+
+/* Typografy */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  margin-left: 0.5em;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  margin-left: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Not sure about these */
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .title,
+  .logo,
+  .nav {
+    padding-top: $nopad;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+
+  .logo {
+    max-width: 30%;
+  }
+  
+  .main {
+    margin-top: 0;
+    margin-inline: 5%;
+    padding-right: 1rem;
+  }
+
+  .main table {
+    margin-left: 0;
+  }
+
+  .footer,
+  .header {
+    margin-inline: 5%;
+  }
+
+  li {
+    margin-left: 0;
+  }
+}

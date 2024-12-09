@@ -14,5 +14,3 @@ Sedan det misslyckade studieförsöket har jag grubblat över om jag skulle våg
 Min bakgrund är huvudsakligen inom samhällsbyggnad och kommunal verksamhet, efter byggingenjörsexamen och jobb som byggnadsinspektör i drygt 10 år. Mina framtidstankar efter slutförd utbildning är att använda erfarenheten med de nyvunna färdigheterna och eventuella kontakterna för att förbättra de bedrövlig IT-systemen som kommunerna brottas med.
 
 Har för övrigt alltid haft ett högt teknikintresse, troligtvis influerat av att min far är maskiningenjör och programmerare. Mina syskon och jag växte upp med ATARI, Amstrad Sinclair m.m. i lekrummet och var senare bland de första privatpersonerna i Malmö som hade ISDN och hade en nedladdningshastighet på hisnande 64kbps(och ännu viktigare: låg ping i Quake).
-
-![Quake-logo](image/Quake.png)
